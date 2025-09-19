@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('../assets/download.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  @media screen and (min-width: 480px) {
+    body{
+        background-image: url('../assets/Finn\ e\ Jack\ relaxando.png');
+    }
+  }
+ 
