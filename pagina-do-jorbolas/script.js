@@ -1,0 +1,32 @@
+[
+        {
+            "id": 1,
+            "slug": "slumber-party-panic",
+            "name": "Slumber Party Panic",
+            "description": "Finn and Jake must save Princess Bubblegum from an impending zombie attack.",
+            "image": "http://adventure-time-api-lg.vercel.app/assets/images/episodes/slumber-party-panic.webp",
+            "thumbnail": "http://adventure-time-api-lg.vercel.app/assets/images/episodes/slumber-party-panic-thumbnail.webp",
+            "release": "2010-04-05",
+            "episode": "S01E01"
+        },
+        {
+            "id": 2,
+            "slug": "trouble-in-lumpy-space",
+            "name": "Trouble in Lumpy Space",
+            "description": "Finn and Jake venture into Lumpy Space to cure the Lumps from Jake's bite.",
+            "image": "http://adventure-time-api-lg.vercel.app/assets/images/episodes/trouble-in-lumpy-space.webp",
+            "thumbnail": "http://adventure-time-api-lg.vercel.app/assets/images/episodes/trouble-in-lumpy-space-thumbnail.webp",
+            "release": "2010-04-12",
+            "episode": "S01E02"
+        },
+        {
+            "id": 3,
+            "slug": "prisoners-of-love",
+            "name": "Prisoners of Love",
+            "description": "Finn and Jake go on a mission to rescue kidnapped princesses from the Ice King.",
+            "image": "http://adventure-time-api-lg.vercel.app/assets/images/episodes/prisoners-of-love.webp",
+            "thumbnail": "http://adventure-time-api-lg.vercel.app/assets/images/episodes/prisoners-of-love-thumbnail.webp",
+            "release": "2010-04-19",
+            "episode": "S01E03"
+        }
+    ]
