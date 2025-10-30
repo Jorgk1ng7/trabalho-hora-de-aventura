@@ -5,26 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Reinos</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
-  <ul
-    class="nav justify-content-center  "
-  >
-    <li class="nav-item">
-      <a class="nav-link active" href="#" aria-current="page"
-        >Active link</a
-      >
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" href="#">Disabled link</a>
-    </li>
-  </ul>
-  
+  <nav class="navbar navbar-expand navbar-light bg-light">
+    <ul class="nav navbar-nav"> 
+        <li class="nav-item">
+           <a class="nav-link active" href="../pagina-do-sinistro/" aria-current="page">Login <span class="visually-hidden">(current)</span></a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="#">Personagens</a>
+         </li>
+        <li class="nav-item">
+             <a class="nav-link" href="./index.html">Reinos</a>
+        </li>
+         <li class="nav-item">
+             <a class="nav-link" href="../pagina-do-iminuel/index.html">Episódios</a>
+         </li>
+          <li class="nav-item">
+             <a class="nav-link" href="../pagina-do-vinezes/index.html">Curiosidades</a>
+         </li>
+      </ul>
+  </nav>
 
   
-<link rel="stylesheet" href="script.js">
+  <div id="carousel-container">
+    <button id="prev" class="carousel-btn">&lt;</button>
+    <div id="carousel" class="carousel"></div>
+    <button id="next" class="carousel-btn">&gt;</button>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>

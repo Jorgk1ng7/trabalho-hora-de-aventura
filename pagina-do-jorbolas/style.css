@@ -1,56 +1,74 @@
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background-image: url('../assets/download.png'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url('../assets/download.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 480px) {
+  body{
+      background-image: url('../assets/Finn e Jack relaxando.png');
   }
-  @media screen and (min-width: 480px) {
-    body{
-        background-image: url('../assets/Finn\ e\ Jack\ relaxando.png');
-    }
-  }
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-    padding: 20px;
-  }
-  
-  .title {
-    font-size: 2em;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #2c3e50;
-  }
-  
-  .kingdom-container {
-    margin-bottom: 30px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    padding: 15px;
-  }
-  
-  .kingdom-image {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    border-radius: 6px;
-  }
-  
-  .kingdom-title {
-    font-size: 1.5em;
-    margin-top: 10px;
-    color: #34495e;
-  }
-  
-  .kingdom-description {
-    margin-top: 5px;
-    color: #555;
-  }
-  
+}
+
+/* Carrossel */
+#carousel-container {
+position: relative;
+width: 90%;
+margin: 40px auto;
+display: flex;
+align-items: center;
+}
+
+.carousel {
+display: flex;
+overflow-x: auto;
+scroll-behavior: smooth;
+gap: 30px;
+padding: 100px;
+}
+
+.carousel::-webkit-scrollbar {
+display: none;
+}
+
+.kingdom-container {
+min-width: 300px;
+flex: 0 0 auto;
+background-color: rgba(255, 255, 255, 0.8);
+border-radius: 10px;
+padding: 16px;
+text-align: center;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.kingdom-image {
+width: 30vh;
+border-radius: 10px;
+
+}
+
+.kingdom-title {
+font-size: 1.5em;
+font-weight: bold;
+margin-top: 10px;
+}
+
+.kingdom-description {
+margin-top: 50px;
+color: #333;
+}
+
+.carousel-btn {
+background-color: rgba(0,0,0,0.5);
+color: white;
+border: none;
+font-size: 2rem;
+padding: 10px 15px;
+cursor: pointer;
+border-radius: 5px;
+z-index: 1;
+}
