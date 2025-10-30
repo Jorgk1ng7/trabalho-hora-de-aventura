@@ -34,3 +34,60 @@
 
 </body>
 </html>
+
+export default function HomeScreen() {
+    const [kingdoms, setKingdoms] = useState([]);  
+    const [error, setError] = useState(null);      
+    const [loading, setLoading] = useState(true);  
+  
+    useEffect(() => {
+      fetch('http://localhost:3000/kingdoms')
+        .then(res => {
+          if (!res.ok) throw new Error('Erro na resposta: ' + res.status);
+          return res.json();
+        })
+        .then(data => {
+          setKingdoms(data);  
+          setLoading(false);
+        })
+        .catch(err => {
+          console.error('Erro ao buscar dados:', err);
+          setError(err.message);
+          setLoading(false);
+        });
+    }, []);
+  
+    return (
+      <ScrollView
+      >
+        <ThemedView style={styles.titleContainer}>
+          <ThemedText style={styles.text} type="title">Reinos</ThemedText>
+        </ThemedView>
+  
+        {/* Mostrar loading */}
+        {loading && <ThemedText>Carregando...</ThemedText>}
+  
+        {/* Mostrar erro */}
+        {error && <ThemedText>Erro: {error}</ThemedText>}
+  
+        {/* Se quiser mostrar algo padrão quando não tiver dados */}
+        {!loading && kingdoms.length === 0 && (
+          <ThemedText>Nenhum reino encontrado.</ThemedText>
+        )}
+        {kingdoms.map((kingdom, index) => (
+          <ThemedView key={index} style={styles.stepContainer}>
+            <Image
+              source={{ uri: kingdom.image }}
+              style={styles.kingdomImage}
+              contentFit="cover"
+              transition={1000}
+            />
+  
+            <ThemedText style={styles.kingdomTitle}>{kingdom.name}</ThemedText>
+            <ThemedText style={styles.kingdomDescription}>{kingdom.description}</ThemedText>
+          </ThemedView>
+        ))}
+  
+      </ScrollView>
+    );
+  }
