@@ -1,0 +1,55 @@
+{
+    "characters": [
+      {
+        "id": 1,
+        "slug": "finn",
+        "name": "Finn",
+        "full_name": "Finn Mertens",
+        "description": "Embora às vezes impulsivo, agressivo e temperamental, Finn é um garoto gentil, corajoso, altruísta e justo. Suas aspirações de se tornar um grande herói o tornam uma espécie de xerife moral na Terra de Ooo, pois está disposto a ajudar e proteger qualquer pessoa ou criatura inocente.",
+        "specie": "Humano",
+        "quotes": [
+          "Que horas são? Hora da Aventura!",
+          "Sem minhocas na cama!",
+          "Você não precisa de um espelho para saber que está bonita. Você é linda por dentro.",
+          "Não sou um herói porque quero sua aprovação. Faço isso porque quero!"
+        ],
+        "image": "http://adventure-time-api-lg.vercel.app/assets/images/characters/finn.webp",
+        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9BZuc6s3BPyFEstS5M-JjGu-OInGguaXuQA&s",
+        "kingdom_slug": "candy-kingdom"
+      },
+      {
+        "id": 2,
+        "slug": "jake",
+        "name": "Jake",
+        "full_name": "Jake the Dog",
+        "description": "Jake é um cão que muda de forma, tem uma atitude descontraída e adora aventuras. Apesar de seu comportamento tranquilo, ele é um amigo leal e solidário. Jake tem a habilidade mágica de se esticar e mudar de forma, permitindo que ele se transforme em várias formas para ajudar Finn em suas jornadas.",
+        "specie": "Cachorro",
+        "quotes": [
+          "Mathematico!",
+          "Cara, ser ruim em alguma coisa é o primeiro passo para ser bom em alguma coisa.",
+          "Não sou preguiçoso, estou no modo de economia de energia.",
+          "Não sou estranho. Estou apenas um passo à frente."
+        ],
+        "image": "http://adventure-time-api-lg.vercel.app/assets/images/characters/jake.webp",
+        "thumbnail": "https://i.pinimg.com/originals/10/97/40/1097403814aa9d1efa7a618585ce5cdc.png",
+        "kingdom_slug": "candy-kingdom"
+      },
+      {
+        "id": 3,
+        "slug": "marceline",
+        "name": "Marceline",
+        "full_name": "Marceline Abadeer",
+        "description": "Marceline é uma rainha vampira com espírito rock and roll. Ela é uma personagem complexa, com uma personalidade travessa e um lado profundo e introspectivo. Marceline é conhecida por seus talentos musicais e frequentemente expressa suas emoções por meio de suas canções. Apesar de sua aparência dura, ela valoriza suas amizades e tem um lado carinhoso.",
+        "specie": "Vampiro",
+        "quotes": [
+          "Não sou má, tenho mil anos e simplesmente perdi o controle do meu código moral.",
+       "Vou comer o vermelho do seu lindo rosto rosado.",
+          "Não sou bom com sentimentos, lide com isso.",
+          "Eu não sou o vilão do Bubblegum. Sou o cara que viu o fim do mundo."
+        ],
+        "image": "http://adventure-time-api-lg.vercel.app/assets/images/characters/marceline.webp",
+        "thumbnail": "https://i.pinimg.com/originals/42/04/02/420402433328577d350f1b565a762255.png",
+        "kingdom_slug": "nightosphere"
+      }
+    ]
+  }

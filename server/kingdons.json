@@ -1,0 +1,40 @@
+{
+    "kingdoms": [
+      {
+        "slug": "candy-kingdom",
+        "name": "Candy Kingdom",
+        "description": "O Reino Doce é um reino doce e colorido governado pela Princesa Jujuba. Conhecido por suas paisagens açucaradas e cidadãos doces, é um centro de inovação científica e aventuras encantadoras. O reino prospera com uma mistura de ciência e magia, criando uma atmosfera fantástica e encantadora.",
+        "thumbnail": "https://i.ibb.co/yWSzyLs/candy-kingdom-thumbnail.webp",
+        "image": "https://i.ibb.co/sF9wbXs/candy-kingdom.webp"
+      },
+      {
+        "slug": "fire-kingdom",
+        "name": "Fire Kingdom",
+        "description": "O Reino do Fogo é um domínio flamejante governado pela Princesa das Chamas. É um reino de calor intenso e paisagens ígneas, habitado por criaturas e súditos baseados em chamas. O Reino do Fogo é conhecido por sua natureza apaixonada e, às vezes, volátil, refletindo o elemento fogo que define sua existência.",
+        "thumbnail": "https://i.ibb.co/JkQ4M6x/fire-kingdom-thumbnail.webp",
+        "image": "https://i.ibb.co/ZThkT7w/fire-kingdom.webp"
+      },
+      {
+        "slug": "ice-kingdom",
+        "name": "Ice Kingdom",
+        "description": "O Reino do Gelo é um domínio gélido e congelado governado pelo Rei do Gelo e, antigamente, pelo Golem da Neve. É uma terra de gelo e neve, habitada por pinguins e outras criaturas de clima frio. O Reino do Gelo é conhecido por seu clima e clima rigorosos, bem como por seus habitantes singulares.",
+        "thumbnail": "https://i.ibb.co/pzx2MGG/ice-kingdom-thumbnail.webp",
+        "image": "https://i.ibb.co/gTGzPXY/ice-kingdom.webp"
+      },
+      {
+        "slug": "lumpy-space",
+        "name": "Lumpy Space",
+        "description": "O Espaço Lumpy é um reino habitado pelo Povo do Espaço Lumpy. É uma terra estranha e distante, repleta de criaturas bizarras e habitantes únicos. O Espaço Lumpy é conhecido por seus costumes e cultura incomuns, bem como por sua natureza estranha e misteriosa.",
+        "thumbnail": "https://i.ibb.co/dJXSqXP/lumpy-space-thumbnail.webp",
+        "image": "https://i.ibb.co/mCdVxRH/lumpy-space.webp"
+      },
+      {
+        "slug": "nightosphere",
+        "name": "Nightosphere",
+        "description": "A Noitosfera é um reino sombrio e misterioso habitado por demônios e outras criaturas sobrenaturais. É o lar de Hunson Abadeer e Marceline, a Rainha Vampira, além de muitos outros seres estranhos. A Noitosfera é conhecida por sua natureza estranha e misteriosa, bem como por seus habitantes únicos.",
+        "thumbnail": "https://i.ibb.co/ZVdwnvv/nightosphere-thumbnail.webp",
+        "image": "https://i.ibb.co/4ggbgZn/nightosphere.webp"
+      }
+    ]
+  }
+  
