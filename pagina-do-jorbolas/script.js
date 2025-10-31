@@ -1,4 +1,4 @@
-const content = document.getElementById('content');
+const carousel = document.getElementById('carousel');
 
 fetch('http://localhost:3000/kingdoms')
   .then(res => {
@@ -6,13 +6,16 @@ fetch('http://localhost:3000/kingdoms')
     return res.json();
   })
   .then(data => {
-    content.innerHTML = '';
-    if (data.length === 0) {
-      content.innerHTML = '<p>Nenhum reino encontrado.</p>';
+    carousel.innerHTML = '';
+
+    const kingdoms = data || [];
+
+    if (kingdoms.length === 0) {
+      carousel.innerHTML = '<p>Nenhum reino encontrado.</p>';
       return;
     }
 
-    data.forEach(kingdom => {
+    kingdoms.forEach(kingdom => {
       const container = document.createElement('div');
       container.className = 'kingdom-container';
 
@@ -32,10 +35,22 @@ fetch('http://localhost:3000/kingdoms')
       container.appendChild(img);
       container.appendChild(title);
       container.appendChild(description);
-      content.appendChild(container);
+      carousel.appendChild(container);
     });
   })
   .catch(err => {
-    content.innerHTML = `<p>Erro: ${err.message}</p>`;
+    carousel.innerHTML = `<p>Erro: ${err.message}</p>`;
     console.error('Erro ao buscar dados:', err);
   });
+
+// Navegação do carrossel
+const prevBtn = document.getElementById('prev');
+const nextBtn = document.getElementById('next');
+
+prevBtn.addEventListener('click', () => {
+  carousel.scrollBy({ left: -320, behavior: 'smooth' });
+});
+
+nextBtn.addEventListener('click', () => {
+  carousel.scrollBy({ left: 320, behavior: 'smooth' });
+});
