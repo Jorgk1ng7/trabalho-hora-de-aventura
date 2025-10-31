@@ -14,21 +14,27 @@ body {
   }
 }
 
-/* Carrossel */
-#carousel-container {
-position: relative;
-width: 90%;
-margin: 40px auto;
-display: flex;
-align-items: center;
+.carrossel{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+  margin: 10px;
+  width: 94%;
+}
+
+
+.buttons{
+  padding: 20px;
 }
 
 .carousel {
 display: flex;
 overflow-x: auto;
 scroll-behavior: smooth;
-gap: 30px;
+gap: 32px;
 padding: 100px;
+width: 100%;
 }
 
 .carousel::-webkit-scrollbar {
@@ -37,7 +43,8 @@ display: none;
 
 .kingdom-container {
 min-width: 300px;
-flex: 0 0 auto;
+height: 370px;
+flex: 30;
 background-color: rgba(255, 255, 255, 0.8);
 border-radius: 10px;
 padding: 16px;
@@ -58,17 +65,23 @@ margin-top: 10px;
 }
 
 .kingdom-description {
-margin-top: 50px;
+margin-top: 10px;
 color: #333;
+font-size: small;
 }
 
 .carousel-btn {
-background-color: rgba(0,0,0,0.5);
-color: white;
-border: none;
-font-size: 2rem;
-padding: 10px 15px;
-cursor: pointer;
-border-radius: 5px;
-z-index: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+ 
+  font-size: 2rem;
+  padding: 20px;
+ 
+  border-radius: 50%;
+ 
 }
+
+
